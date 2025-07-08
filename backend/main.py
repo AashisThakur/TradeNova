@@ -11,12 +11,12 @@ from bs4 import BeautifulSoup
 load_dotenv()
 
 creds = {
-    "APP_SOURCE": '25644',
-    "APP_NAME": '5P56775516',
-    "USER_ID": 'pptiHbdZRTm',
-    "PASSWORD": '7IxEptH2XZx',
-    "USER_KEY": 'piBACvMTpzELnQlpl2hQbcYID3lVJz8J',
-    "ENCRYPTION_KEY": 'WjoXMxzDQvaDjxwrpniVQigIRtrXkI7Y',
+    "APP_SOURCE": '',
+    "APP_NAME": '',
+    "USER_ID": '',
+    "PASSWORD": '',
+    "USER_KEY": '',
+    "ENCRYPTION_KEY": '',
 }
 
 client = FivePaisaClient(cred=creds)
